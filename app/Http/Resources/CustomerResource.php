@@ -24,7 +24,7 @@ class CustomerResource extends JsonResource
           'email' => $this->email, 
           'addresses' => AddressResource::collection($this->addresses), 
           'created_at' => $this->created_at, 
-          'updated_at' => $this->updated_at, 
+          'updated_at' => $this->updated_at,
         ];
     }
 }
